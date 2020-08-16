@@ -1,0 +1,5 @@
+from scipy.cluster.hierarchy import linkage, dendrogram
+import matplotlib.pyplot as plt
+import pandas as pd
+seeds_df = pd.read_csv('seeds-less-rows.csv')
+seeds_df.head()
